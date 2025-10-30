@@ -74,32 +74,38 @@ echo 'export PATH=/opt/adam/bin:$PATH' | sudo tee -a /etc/profile.d/adam.sh
 pip install -r requirements.txt
 ```
 
-## 📁 Project Structure
+Complete Project Structure:
 
 ```
 genomic-variant-pipeline/
-├── README.md
-├── requirements.txt
-├── setup.py
+├── README.md                          ✅ (created earlier)
+├── LICENSE                            ✅ NEW
+├── setup.py                           ✅ NEW
+├── requirements.txt                   ✅ (created earlier)
+├── MANIFEST.in                        ✅ NEW
+├── .gitignore                         ✅ NEW
+│
 ├── config/
-│   └── pipeline_config.yaml
+│   └── pipeline_config.yaml          ✅ NEW
+│
 ├── scripts/
-│   ├── convert_to_adam.py
-│   ├── variant_filtering.py
-│   ├── quality_control.py
-│   └── run_pipeline.py
+│   ├── convert_to_adam.py            ✅ (created earlier)
+│   ├── variant_filtering.py          ✅ (created earlier)
+│   ├── quality_control.py            ✅ (created earlier)
+│   └── run_pipeline.py               ✅ (created earlier)
+│
 ├── src/
-│   ├── __init__.py
-│   ├── adam_converter.py
-│   ├── variant_processor.py
-│   ├── s3_handler.py
-│   └── utils.py
-├── notebooks/
-│   └── variant_analysis.ipynb
+│   ├── __init__.py                   ✅ NEW
+│   ├── adam_converter.py             ✅ NEW
+│   ├── variant_processor.py          ✅ NEW
+│   ├── s3_handler.py                 ✅ NEW
+│   └── utils.py                      ✅ NEW
+│
 ├── tests/
-│   └── test_pipeline.py
+│   └── test_pipeline.py              ✅ NEW
+│
 └── docker/
-    └── Dockerfile
+    └── Dockerfile                    ✅ (created earlier)
 ```
 
 ## 💻 Usage
@@ -120,6 +126,43 @@ python scripts/run_pipeline.py \
   --depth-threshold 10 \
   --file-type bam
 ```
+### How to Install and Use:
+
+# 1. Clone/create the repository
+git clone https://github.com/mtariqi/genomic-variant-pipeline.git
+cd genomic-variant-pipeline
+
+# 2. Install in development mode
+pip install -e .
+
+# 3. Or install from PyPI (after publishing)
+pip install genomic-variant-pipeline
+
+# 4. Use command-line tools
+genomic-pipeline --input sample.bam --output results/ --file-type bam
+
+# 5. Or use as Python library
+from src import ADAMConverter, VariantProcessor
+converter = ADAMConverter()
+converter.convert_alignment('sample.bam', 'output.adam')
+
+### Installation Commands:
+# Install all dependencies
+pip install -r requirements.txt
+
+# Install development dependencies
+pip install -e ".[dev]"
+
+# Run tests
+pytest tests/
+
+# Build package
+python setup.py sdist bdist_wheel
+
+# Install locally
+pip install -e .
+
+
 
 ### Step-by-Step Execution
 
