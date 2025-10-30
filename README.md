@@ -78,34 +78,34 @@ Complete Project Structure:
 
 ```
 genomic-variant-pipeline/
-├── README.md                          ✅ (created earlier)
-├── LICENSE                            ✅ NEW
-├── setup.py                           ✅ NEW
-├── requirements.txt                   ✅ (created earlier)
-├── MANIFEST.in                        ✅ NEW
-├── .gitignore                         ✅ NEW
+├── README.md                          
+├── LICENSE                            
+├── setup.py                           
+├── requirements.txt                   
+├── MANIFEST.in                        
+├── .gitignore                         
 │
 ├── config/
-│   └── pipeline_config.yaml          ✅ NEW
+│   └── pipeline_config.yaml          
 │
 ├── scripts/
-│   ├── convert_to_adam.py            ✅ (created earlier)
-│   ├── variant_filtering.py          ✅ (created earlier)
-│   ├── quality_control.py            ✅ (created earlier)
-│   └── run_pipeline.py               ✅ (created earlier)
+│   ├── convert_to_adam.py            
+│   ├── variant_filtering.py          
+│   ├── quality_control.py            
+│   └── run_pipeline.py               
 │
 ├── src/
-│   ├── __init__.py                   ✅ NEW
-│   ├── adam_converter.py             ✅ NEW
-│   ├── variant_processor.py          ✅ NEW
-│   ├── s3_handler.py                 ✅ NEW
-│   └── utils.py                      ✅ NEW
+│   ├── __init__.py                   
+│   ├── adam_converter.py             
+│   ├── variant_processor.py          
+│   ├── s3_handler.py                 
+│   └── utils.py                      
 │
 ├── tests/
-│   └── test_pipeline.py              ✅ NEW
+│   └── test_pipeline.py              
 │
 └── docker/
-    └── Dockerfile                    ✅ (created earlier)
+    └── Dockerfile                    
 ```
 
 ## 💻 Usage
