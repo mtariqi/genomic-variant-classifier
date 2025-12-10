@@ -45,10 +45,6 @@ A scalable, production-ready genomic data processing pipeline that converts alig
 [![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Genomics-0088CC.svg)](https://www.bioinformatics.org/)
 [![Variant Analysis](https://img.shields.io/badge/Analysis-Variant_Calling-green.svg)](https://gatk.broadinstitute.org/)
 
-<!-- Status -->
-[![GitHub Actions](https://github.com/mtariqi/genomic-variant-pipeline/actions/workflows/test.yml/badge.svg)](https://github.com/mtariqi/genomic-variant-pipeline/actions)
-[![Python](https://img.shields.io/pypi/pyversions/genomic-variant-pipeline.svg)](https://pypi.org/project/genomic-variant-pipeline/)
-[![License](https://img.shields.io/github/license/mtariqi/genomic-variant-pipeline.svg)](LICENSE)
 
 
 ## 🧬 Features
