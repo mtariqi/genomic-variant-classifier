@@ -2,6 +2,32 @@
 
 A scalable, production-ready genomic data processing pipeline that converts alignment and variant files (SAM/BAM/VCF) into ADAM/Parquet format and performs distributed variant analysis using Apache ADAM and Apache Spark on AWS EMR.
 
+<!-- Course & Academic -->
+[![BINF6300](https://img.shields.io/badge/Course-BINF6300-red.svg)](https://www.northeastern.edu)
+[![Northeastern University](https://img.shields.io/badge/University-Northeastern-red.svg)](https://www.northeastern.edu)
+[![Academic Project](https://img.shields.io/badge/Project-Academic-blue.svg)](https://github.com/mtariqi/variant-calling-benchmark)
+
+<!-- Paper Reference -->
+[![DOI](https://zenodo.org/badge/DOI/10.1186/s12864-022-08365-3.svg)](https://doi.org/10.1186/s12864-022-08365-3)
+[![Paper](https://img.shields.io/badge/Paper-Barbitoff_et_al._2022-0088CC.svg)](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-022-08365-3)
+
+<!-- Technology Stack -->
+[![Snakemake](https://img.shields.io/badge/Workflow-Snakemake-green.svg)](https://snakemake.readthedocs.io)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
+[![R](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
+[![conda](https://img.shields.io/badge/Environment-conda-yellow.svg)](https://docs.conda.io/)
+
+<!-- Data & Tools -->
+[![GIAB](https://img.shields.io/badge/Data-GIAB-orange.svg)](https://www.nist.gov/programs-projects/genome-bottle)
+[![GATK](https://img.shields.io/badge/Tool-GATK-purple.svg)](https://gatk.broadinstitute.org/)
+[![DeepVariant](https://img.shields.io/badge/Tool-DeepVariant-00A0DC.svg)](https://github.com/google/deepvariant)
+
+<!-- Status -->
+![GitHub last commit](https://img.shields.io/github/last-commit/mtariqi/variant-calling-benchmark)
+![GitHub repo size](https://img.shields.io/github/repo-size/mtariqi/variant-calling-benchmark)
+![GitHub issues](https://img.shields.io/github/issues/mtariqi/variant-calling-benchmark)
+![GitHub License](https://img.shields.io/github/license/mtariqi/variant-calling-benchmark)
+
 ## 🧬 Features
 
 - **Format Conversion**: Transform SAM/BAM/VCF files to efficient Parquet-backed ADAM format
