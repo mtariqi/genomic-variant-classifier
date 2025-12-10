@@ -28,6 +28,26 @@ A scalable, production-ready genomic data processing pipeline that converts alig
 ![GitHub issues](https://img.shields.io/github/issues/mtariqi/variant-calling-benchmark)
 ![GitHub License](https://img.shields.io/github/license/mtariqi/variant-calling-benchmark)
 
+<!-- Big Data & Cloud -->
+[![Apache Spark](https://img.shields.io/badge/Apache-Spark-E25A1C.svg)](https://spark.apache.org/)
+[![Apache ADAM](https://img.shields.io/badge/Apache-ADAM-0088CC.svg)](https://bdgenomics.org/)
+[![AWS EMR](https://img.shields.io/badge/AWS-EMR-FF9900.svg)](https://aws.amazon.com/emr/)
+[![PySpark](https://img.shields.io/badge/PySpark-3.2%2B-E25A1C.svg)](https://spark.apache.org/docs/latest/api/python/)
+
+<!-- Genomics -->
+[![Bioinformatics](https://img.shields.io/badge/Bioinformatics-Genomics-0088CC.svg)](https://www.bioinformatics.org/)
+[![Variant Analysis](https://img.shields.io/badge/Analysis-Variant_Calling-green.svg)](https://gatk.broadinstitute.org/)
+
+<!-- Status -->
+[![GitHub Actions](https://github.com/mtariqi/genomic-variant-pipeline/actions/workflows/test.yml/badge.svg)](https://github.com/mtariqi/genomic-variant-pipeline/actions)
+[![Python](https://img.shields.io/pypi/pyversions/genomic-variant-pipeline.svg)](https://pypi.org/project/genomic-variant-pipeline/)
+[![License](https://img.shields.io/github/license/mtariqi/genomic-variant-pipeline.svg)](LICENSE)
+
+<!-- Project Metrics -->
+![GitHub stars](https://img.shields.io/github/stars/mtariqi/genomic-variant-pipeline)
+![GitHub forks](https://img.shields.io/github/forks/mtariqi/genomic-variant-pipeline)
+![GitHub issues](https://img.shields.io/github/issues/mtariqi/genomic-variant-pipeline)
+
 ## 🧬 Features
 
 - **Format Conversion**: Transform SAM/BAM/VCF files to efficient Parquet-backed ADAM format
