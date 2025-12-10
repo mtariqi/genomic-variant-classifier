@@ -1,19 +1,16 @@
 # Genomic Variant Pipeline with ADAM and PySpark
 
-![GitHub Actions](https://github.com/your-username/your-repo/actions/workflows/main.yml/badge.svg)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![Snakemake](https://img.shields.io/badge/snakemake->=7.0-green)
 ![License](https://img.shields.io/github/license/your-username/your-repo)
 ![GitHub issues](https://img.shields.io/github/issues/your-username/your-repo)
 ![GitHub stars](https://img.shields.io/github/stars/your-username/your-repo)
 
-A scalable, production-ready genomic data processing pipeline...
-# Genomic Variant Pipeline with ADAM and PySpark
 
 A scalable, production-ready genomic data processing pipeline that converts alignment and variant files (SAM/BAM/VCF) into ADAM/Parquet format and performs distributed variant analysis using Apache ADAM and Apache Spark on AWS EMR.
 
 <!-- Course & Academic -->
-[![BINF6300](https://img.shields.io/badge/Course-BINF6300-red.svg)](https://www.northeastern.edu)
+
 [![Northeastern University](https://img.shields.io/badge/University-Northeastern-red.svg)](https://www.northeastern.edu)
 [![Academic Project](https://img.shields.io/badge/Project-Academic-blue.svg)](https://github.com/mtariqi/variant-calling-benchmark)
 
